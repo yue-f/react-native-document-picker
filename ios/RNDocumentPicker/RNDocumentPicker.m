@@ -42,7 +42,7 @@ RCT_EXPORT_METHOD(show:(NSDictionary *)options
                   callback:(RCTResponseSenderBlock)callback) {
 
     NSArray *allowedUTIs = [RCTConvert NSArray:options[@"filetype"]];
-    UIDocumentMenuViewController *documentPicker = [[UIDocumentMenuViewController alloc] initWithDocumentTypes:(NSArray *)allowedUTIs inMode:UIDocumentPickerModeImport];
+    UIDocumentPickerViewController *documentPicker = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:(NSArray *)allowedUTIs inMode:UIDocumentPickerModeImport];
 
     [composeCallbacks addObject:callback];
 
