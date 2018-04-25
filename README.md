@@ -1,5 +1,6 @@
 # react-native-document-picker
 
+
 A React Native wrapper for Apple's ``UIDocumentMenuViewController`` and for Android's ``Intent.ACTION_OPEN_DOCUMENT`` / ``Intent.ACTION_PICK``.
 
 ### Installation
@@ -206,8 +207,13 @@ You need to enable iCloud Documents to access iCloud
 ![screen](https://313e5987718b346aaf83-f5e825270f29a84f7881423410384342.ssl.cf1.rackcdn.com/1411920674-enable-icloud-drive.png)
 
 
+## 修改ios上传默认打开文件
+
 ## Halp wanted: Improvements
 
 - Fix Xcode warning about constraints
 - support options for the [UIDocumentMenuViewController](https://developer.apple.com/library/ios/documentation/FileManagement/Conceptual/DocumentPickerProgrammingGuide/AccessingDocuments/AccessingDocuments.html#//apple_ref/doc/uid/TP40014451-CH2-SW5)
 - Handle Upload by itself ?
+
+
+
